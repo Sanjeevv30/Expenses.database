@@ -1,0 +1,22 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "expense tracker app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "sanjeev",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "mysql2": "^3.6.1",
+    "nodemon": "^3.0.1",
+    "path": "^0.12.7",
+    "routes": "^2.1.0",
+    "sequelize": "^6.33.0"
+  }
+}
